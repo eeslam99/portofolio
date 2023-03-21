@@ -1,0 +1,650 @@
+*{
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*navbarrrrr*/
+
+.navbar{
+    background:#05050500;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    z-index: 999;
+}
+
+.navbar.scrolled {
+    background-color: #000000;
+    /* box-shadow: #94a3a2bb 15px 10px 15px ; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+.navbar .logo{
+    text-decoration: none;
+}
+.navbar .logo h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+.logo span{
+    color:red;
+    text-decoration: none;
+}
+
+.links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding:auto;
+    transition: ease 1s;
+
+}
+
+
+
+
+ .links a:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    padding-left: 20px;
+    padding:auto;
+    
+}
+
+/*navvvvvvv*/
+
+
+/*headdinggggg*/
+
+.main{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image:url(tech-black-background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.main .pragraph .p1{
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: 600;
+    margin-left: 100px;
+    
+}
+
+.main .pragraph button{
+    height: 45px;
+    width: 140px;
+    color: #ffffff;
+    background-color: #ffffff00;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top:50px;
+    transition: ease .5s;
+}
+
+.main .pragraph button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+.go-to-next {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: 35px;
+    margin: auto;
+    z-index: 1;
+    text-align: center;
+  }
+  .go-to-next a {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+    background: #fc5356;
+    border-radius: 50%;
+    animation: down 1s linear infinite;
+  }
+  .go-to-next a span {
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(135deg);
+  }
+  
+
+  @keyframes down {
+    0% {
+      top: 5px;
+      opacity: 0;
+    }
+    30% {
+      top: 15px;
+      opacity: 1;
+    }
+    100% {
+      top: 25px;
+      opacity: 0;
+    }
+  }
+
+
+/*endheading*/
+
+/*about us*/
+.about-section{
+    justify-content: center;
+}
+.about-section .container{
+    display: flex;
+    gap: 40px;
+    margin: 120px 110px;
+    
+}
+
+.about-section .container .about-text-go-to .dark-color{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about-section .container .about-text-go-to .theme-color-lead{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 79, 79);
+
+}
+
+.about-section .container .about-text-go-to pre{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+}
+
+.about-section .container .about-text-go-to pre span{
+    font-weight: 500;
+    color: black;
+    text-decoration: underline 2px solid red;
+}
+
+.about-section .container .about-text-go-to .row-about-list{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.about-section .container .about-text-go-to .row-about-list .col-md-6 .media{
+    display: flex;
+    margin-bottom: 15px;
+}
+.about-section .container .about-text-go-to .row-about-list .col-md-6 .media label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+.about-section .container .about-text-go-to .b button{
+    height: 40px;
+    width: 140px;
+    color: #f00000;
+    background-color: #ffffff00;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:20px;
+    transition: ease .5s;
+}
+
+.about-section .container .about-text-go-to .b button:hover{
+    background-color: #f52323;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+/*end-about-section*/
+
+
+
+/*------skills------*/
+.skills{
+    background-color: rgba(223, 219, 219, 0.39);
+
+}
+.skills .skills-1{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+
+.skills .skills-1 .title {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.skills .skills-1 .title h1{
+    font-size: 40px;
+    font-weight: 600px;
+    padding-bottom: 13px;
+    padding-top: 40px;
+}
+
+.skills .skills-1 .title hr{
+    background-color: #f74a4a;
+    height: 2px;
+    width: 70px;
+    border: none;
+    margin: auto;
+}
+
+.skills .skills-1 .title p{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+    padding-top: 17px;
+    
+}
+
+.skills .skills-1 .container-skills{
+    margin-top: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+.skills .skills-1 .container-skills .card{
+    text-align: center;
+    padding: 20px;
+    width: 29%;
+    background-color: #ffffff;
+    border: rgb(214, 211, 211) 1px solid;
+    border-radius: 8px;
+    
+    transition: ease .5s;
+}
+
+.skills .skills-1 .container-skills .card i{
+    font-size: 60px;
+    color: #e70000;
+    padding:10px 5px;
+    
+}
+
+.skills .skills-1 .container-skills .card h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 25px;
+    
+    text-align: center;
+
+
+}
+.skills .skills-1 .container-skills .card p{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+    padding-top: 17px;
+    
+}
+.skills .skills-1 .container-skills .card:hover{
+    /*box-shadow: 5px 5px rgb(216, 214, 214);*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: -5px;
+}
+
+/*end-skills*/
+
+/*My projects*/
+.projects .projects2{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FFFFFF;
+}
+
+.projects .projects2 .projects-title{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects .projects2 .projects-title h1{
+    font-size: 40px;
+    font-weight: 600px;
+    padding-bottom: 13px;
+    padding-top: 40px;
+
+}
+.projects .projects2 .projects-title hr{
+    background-color: #f74a4a;
+    height: 2px;
+    width: 70px;
+    border: none;
+    margin: auto;
+    
+}
+.projects .projects2 .projects-title p{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+    padding-top: 17px;
+    
+}
+
+
+.projects .projects2 .container-projects{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.projects .projects2 .container-projects .card-p{
+    padding: 25px;
+    width: 31%;
+    background-color: #ffffff;
+    border: rgb(214, 211, 211) 1px solid;
+    transition: ease .5s;
+
+}
+
+.projects .projects2 .container-projects .card-p:hover{
+    box-shadow: 10px 10px rgba(216, 214, 214, 0.623);
+    margin-top: -10px;
+}
+
+
+.projects .projects2 .container-projects .card-p h1{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top:15px;
+}
+
+.projects .projects2 .container-projects .card-p pre{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    background-color: #f52323;
+    border-radius: 30px;
+    width:100px;
+    padding-right: 5px;
+    height: 22px;    
+}
+
+.projects .projects2 .container-projects .card-p  p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+
+}
+
+.projects .projects2 .container-projects .card-p .btn{
+    height: 45px;
+    width: 140px;
+    color: #ff0000;
+    background-color: #b4393900;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: ease .5s;
+    padding-top: 20px;
+}
+
+.projects .projects2 .container-projects .card-p .btn:hover{
+    color:black;
+    cursor: pointer;
+}
+
+/*end myprojects */
+
+
+
+
+
+
+
+
+
+/*contact*/
+
+.contact-1 .contact-2 .title-contact{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.contact-1 .contact-2 .title-contact h1{
+    font-size: 40px;
+    font-weight: 600px;
+    padding-bottom: 13px;
+    padding-top: 40px;
+
+}
+.contact-1 .contact-2 .title-contact hr{
+    background-color: #f74a4a;
+    height: 2px;
+    width: 70px;
+    border: none;
+    margin: auto;
+
+}
+.contact-1 .contact-2 .title-contact p{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+    padding-top: 17px;
+}
+
+.form h1{
+    font-size: 20px;
+    color: rgb(87, 86, 86);
+    font-weight: 350;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.form{
+    width: 60%;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 30px 30px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: rgb(214, 211, 211) 1px solid;
+    box-shadow: 5px 5px  rgb(216, 214, 214);
+    
+    
+}
+input{
+    padding: 13px 23px;
+    border-radius: 10px;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    margin-bottom: 15px;
+    height: 45px;
+         
+    font-size: 15px;
+    font-weight: 400;
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+.width-100{
+    width: 100%;
+}
+.name{
+    margin-right: 20px;
+    width: 48%;
+}
+.email{
+    width:48%;
+}
+ textarea{
+    padding: 13px 23px;
+    border-radius: 10px;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    margin-bottom: 15px;     
+    font-size: 15px;
+    font-weight: 400;
+    color: #212529;
+    border: 1px solid #ced4da;
+    width: 100%;
+    height: 100px;
+    
+ }
+
+.button-contact{
+    padding:0px 300px ;
+}
+
+
+ button{
+    height: 45px;
+    width: 140px;
+    color: #ff0000;
+    background-color: #ffffff00;
+    border: 1px solid #e70000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: ease .5s;
+    
+
+    
+}
+
+button:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+ }
+
+ /*cardsss*/
+ .contact-1 .contact-2 .cards{
+    display:flex;
+    gap: 35px;
+    margin:50px 150px;
+    justify-content: center;
+
+ }
+ .contact-1 .contact-2 .cards .card{
+    
+    justify-content: center;
+    text-align: center;
+    box-shadow: #212529;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px rgb(216, 214, 214);
+    border: rgb(214, 211, 211) 1px solid;
+ }
+ .contact-1 .contact-2 .cards .card i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #f00000;
+ }
+ .contact-1 .contact-2 .cards .card h1{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+ }
+ .contact-1 .contact-2 .cards .card p{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(99, 98, 98);
+    
+ }
+
+/*---------------------end of contact--------------------*/
+
+
+
+
+
+
+
+
+/*-------------------foooooottterr---------------------*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.footer .container-footer{
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container-footer .icons-footer{
+    display: flex;
+    gap:20px;
+    padding-top: 8px;
+}
+.footer .container-footer .icons-footer .fa-brands {
+    font-size: 15px;
+    color: #f1f0f0;
+    transition: ease .5s;
+}
+
+.footer .container-footer .icons-footer .fa-brands:hover{
+    color: #f52323;
+    cursor: pointer;
+
+}
+
+.footer .container-footer .copyright{
+    font-size: 13px;
+    color: #f1f0f0;
+    padding-top: 7px;
+}
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+
